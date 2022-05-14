@@ -1,0 +1,24 @@
+.header {
+  border: 1px solid #ccc;
+  background-color: #cccccc;
+  height: 60px;
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+
+  .menuItems {
+    margin-right: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .menuItems:active, .menuItems:visited {
+    color: #000;
+  }
+
+  .menuItems:hover {
+    background-color: #bbb;
+  }
+}

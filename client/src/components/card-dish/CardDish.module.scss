@@ -1,0 +1,60 @@
+.cardDish {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  width: 45%;
+  margin: 20px;
+  min-height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  .title {
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .slider {
+
+    .currentImgInfo {
+      display: flex;
+
+      .info {
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+
+        .infoItem {
+          margin: 5px 0;
+
+          .key {
+            color: #aaa;
+          }
+        }
+      }
+
+      .currentImg {
+        display: block;
+        border-radius: 5px;
+      }
+    }
+
+
+
+    .carousel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .arrow {
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      .otherImg {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px;
+        flex-grow: 1;
+      }
+    }
+  }
+}
